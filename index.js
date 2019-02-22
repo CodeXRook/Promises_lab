@@ -6,3 +6,10 @@ const sometimesSuccessful = () => randomNumber().then(k => k % 2 === 0 ? alwaysS
 let alwaysSuccessful = new Promise(function(resolve, reject){
     setTimeout(() => resolve(1), 1000);
 })
+.then
+
+
+let alwaysFailure = new Promise(funtion(resolve, reject){
+    setTimeout(() => resolve(1), 1000);
+})
+.then
